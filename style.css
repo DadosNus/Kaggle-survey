@@ -1,66 +1,6 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-.alert {
-	width: 80%;
-	margin: 20px auto;
-	padding: 30px;
-	position: relative;
-	border-radius: 5px;
-	box-shadow: 0 0 15px 5px rgb(255, 255, 255, 0.65);
-}
-.simple-alert {
-	background-color: #12A6B6;
-	border-left: 5px solid #245b70;
-}
-.success-alert {
-	background-color: #79A988;
-	border-left: 5px solid #24703d;
-}
-.danger-alert {
-	background-color: #9C3175;
-	border-left: 5px solid #702424;
-}
-.warning-alert {
-	background-color: #DFAC59;
-	border-left: 5px solid #a97800;
-}
 
 /** Styling Headlines **/
 @font-face {
-	font-family: parklane;
+	font-family: Bangers;
 	src: url(https://h4ks.net/ParkLaneNF.otf);
-}
-.jp-MarkdownCell h1, 
-.text_cell h1,
-.jp-MarkdownCell h2, 
-.text_cell h2 {
-    font-family: parklane !important;
-}
-
-
-/** Styling Markdown Tables **/
-.jp-RenderedMarkdown table,
-.rendered_html table {
-    display: initial !important;
-    font-family: times-new-roman;
-}
-.jp-RenderedMarkdown table th,
-.rendered_html table th {
-    font-weight: 700;
-}
-.jp-RenderedMarkdown table tr:nth-child(odd),
-.rendered_html table tr:nth-child(odd) {
-    background: rgba(255, 255, 255, 0.25) !important;
-}
-.jp-RenderedMarkdown table tr:nth-child(even),
-.rendered_html table tr:nth-child(even) {
-    background: rgba(255, 255, 255, 0) !important;
-}
-.jp-RenderedMarkdown table tr:hover,
-.rendered_html table tr:hover {
-    background: rgba(255, 255, 255, 0.5) !important;
 }
